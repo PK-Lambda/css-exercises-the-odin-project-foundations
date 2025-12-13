@@ -1,1 +1,28 @@
 /* Add CSS Styling */
+
+.numberodd {
+    background-color: rgba(255, 68, 0, 0.565);
+    font-family: Verdana, "DejaVu Sans", "sans-serif";
+}
+
+#numbertwo {
+    color: #0602fa;
+    font-size: 36px;
+}
+
+.numberbig {
+    font-size: 24px;
+}
+
+.numberbig#numberfour {
+    background-color: rgba(106, 255, 0, 0.983);
+    font-weight: bold;
+}
+
+/*
+Technicaly I don't need to chain .numberbig#numberfour as it too specific.
+In practice, I've already declared .numberbig hence font-size would apply automatically
+since I've already added that class in the HTML declaration. Hence the last code of line
+could have been writen as #numberfour but my specificity would be better as it will be
+specific for this declaration.
+*/
