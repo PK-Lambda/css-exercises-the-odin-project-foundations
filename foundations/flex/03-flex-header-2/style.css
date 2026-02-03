@@ -8,10 +8,20 @@ body {
   font-family: Besley, serif;
 }
 
+.logo_nav {
+  display: flex;
+  flex-direction: row;  /* Created this class to have 2 divs seperated at each end*/
+  gap: 15px;
+}
+
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .profile-image {
@@ -27,6 +37,22 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+}
+
+.button_pic {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px;
+  padding: 0;
+  gap: 16px;
 }
 
 button {
