@@ -20,6 +20,34 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 18px;
+  display: flex;
+  flex-direction: row;
+}
+
+.user_interaction {
+  flex-direction: column;
+}
+
+.user_question {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: auto; /* You stopped here .. */
+}
+
+.user_choice {
+  padding-top: 15px;
+
+}
+
+.holder_icon {
+  padding-right: 15px;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .icon {
